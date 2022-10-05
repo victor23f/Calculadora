@@ -62,7 +62,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="35dp"
                     android:layout_weight="1"
-                    android:text="-" />
+                    android:text="-"
+                    android:onClick="resta"/>
             </LinearLayout>
 
             <LinearLayout
@@ -76,7 +77,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="35dp"
                     android:layout_weight="1"
-                    android:text="x" />
+                    android:text="x"
+                    android:onClick="multiplicacion"/>
 
                 <Button
                     android:id="@+id/BotonDivision"
@@ -84,7 +86,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="35dp"
                     android:layout_weight="1"
-                    android:text="/" />
+                    android:text="/"
+                    android:onClick="division"/>
             </LinearLayout>
         </LinearLayout>
 
